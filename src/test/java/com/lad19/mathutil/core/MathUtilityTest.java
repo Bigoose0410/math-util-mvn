@@ -4,7 +4,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
  */
 package com.lad19.mathutil.core;
-
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -25,20 +24,20 @@ public class MathUtilityTest {
     //Expected Result
     //          The method getFactorial(n = 0) must return 1
     //                          as the result of 0! == 1
-    //STATUS: PASSED | FAILED �?O�?N XEM KHI CHẠY APP/HÀM/METHOD
-    @Test // dính dáng đến thuật ngữ framework
+    //STATUS: PASSED | FAILED Ä�OÃ�N XEM KHI CHáº Y APP/HÃ€M/METHOD
+    @Test // dÃ­nh dÃ¡ng Ä‘áº¿n thuáº­t ngá»¯ framework
     public void verifyFactorialGivenRightArgument0ReturnsOk(){
         assertEquals(1, MathUtility.getFactorial(0));
     }
     
     //TEST CASE #2....n = 1
-    @Test // dính dáng đến thuật ngữ framework
+    @Test // dÃ­nh dÃ¡ng Ä‘áº¿n thuáº­t ngá»¯ framework
     public void verifyFactorialGivenRightArgument1ReturnsOk(){
         assertEquals(1, MathUtility.getFactorial(1));
     }
     
     //TEST CASE #3 .... n = 6
-    @Test // dính dáng đến thuật ngữ framework
+    @Test // dÃ­nh dÃ¡ng Ä‘áº¿n thuáº­t ngá»¯ framework
     public void verifyFactorialGivenRightArgument6ReturnsOk(){
         assertEquals(720, MathUtility.getFactorial(6));
     }
