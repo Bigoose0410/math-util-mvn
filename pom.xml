@@ -29,7 +29,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    
     <!-- Các thư viện mình cần cho riêng maven để maven chạy ngầm 
     1 số việc trong quá trình nó đóng gói app cho mình  
     Đồ chơi dành riêng cho Maven để đây - độ quá trình build, đóng gói
