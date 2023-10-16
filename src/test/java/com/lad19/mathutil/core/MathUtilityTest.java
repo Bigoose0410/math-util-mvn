@@ -1,3 +1,4 @@
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
@@ -6,6 +7,7 @@ package com.lad19.mathutil.core;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+
 
 /**
  *
@@ -23,7 +25,7 @@ public class MathUtilityTest {
     //Expected Result
     //          The method getFactorial(n = 0) must return 1
     //                          as the result of 0! == 1
-    //STATUS: PASSED | FAILED ĐOÁN XEM KHI CHẠY APP/HÀM/METHOD
+    //STATUS: PASSED | FAILED �?O�?N XEM KHI CHẠY APP/HÀM/METHOD
     @Test // dính dáng đến thuật ngữ framework
     public void verifyFactorialGivenRightArgument0ReturnsOk(){
         assertEquals(1, MathUtility.getFactorial(0));
@@ -42,3 +44,4 @@ public class MathUtilityTest {
     }
     
 }
+\
